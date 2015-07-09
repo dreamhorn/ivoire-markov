@@ -44,7 +44,8 @@ Either way, instantiate and start making chains!
     var generator = i.get_markov_generator(trained);
 
     // The generator synthesizes new output from the trained chain, using our
-    instance's pseudo-random sequence.  generator.generate()
+    // instance's pseudo-random sequence.
+    console.log(generator.generate())
 
 
 Reference
@@ -53,6 +54,10 @@ Reference
 `ivoire-markov` adds some methods to the `Ivoire` prototype object,
 making them available on all `Ivoire` instances. It also adds methods to the
 `Ivoire` "class" object itself, available through the `Ivoire` namespace.
+
+- [`.train_markov_chain()`](#train_markov_chain)—train a markov chain on a corpus of text
+- [`#get_markov_generator()`](#get_markov_generator)—obtain a generator from trained data
+- [`generator.generate()`](#generatorgenerate)—generate random strings of text
 
 
 ### .train_markov_chain()
