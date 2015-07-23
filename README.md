@@ -5,6 +5,8 @@ ivoire-markov
 [Ivoire](https://www.npmjs.com/package/ivoire) random number generator
 framework.
 
+[![Build Status](https://travis-ci.org/dreamhorn/ivoire-markov.svg)](https://travis-ci.org/dreamhorn/ivoire-markov)
+
 - [Installing](#installing)
 - [Getting Started](#getting-started)
 - [Reference](#reference)
